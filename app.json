@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "panecito",
+    "slug": "panecito",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/panecito.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/panecito-splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F4F5F7"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +22,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/panecito.png",
+        "backgroundColor": "#F4F5F7"
+      },
+      "package": "com.erickhcerecedo.panecito"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/panecito-favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "cjs"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b5209411-b49a-4f46-bc9e-2196c522f650"
+      }
     }
   }
 }
